@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: #4285f4;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f5f5f5;
+}
+
+.hero h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #4285f4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.lotes, .beneficios, .contacto {
+  padding: 2rem;
+}
+
+.lotes .lote {
+  display: inline-block;
+  width: 45%;
+  margin: 1rem 2.5%;
+  vertical-align: top;
+}
+
+.lotes img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.beneficios ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contacto label {
+  margin-bottom: 0.5rem;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contacto button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #34a853;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f5f5f5;
+  margin-top: 2rem;
+}
